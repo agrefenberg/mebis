@@ -1,0 +1,130 @@
+/** SCHRIFTART CHELSEA MARKET **/
+<link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <strong><span style="font-family: 'Chelsea Market'; font-size: large;">
+
+
+
+/** BOX **/
+<div style="background-color: #f27391; width:95%; padding: 5px; border-radius: 8px; box-shadow: 5px 5px #888;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <span style="font-size: xx-large; color: #ffffff;"><strong><span style="font-family: 'Chelsea Market';">farbige Box mit abgerundeten Ecken</span></strong></span></div>
+
+
+
+/** BOX gestrichelte Linie, abgerundete Ecken **/
+<div style="border: dashed 3px #4b4b4b; border-radius: 15px; -moz-border-radius: 15px;"></div>
+
+
+
+/** stacked TEXT BOX **/
+<p style="background: #e8e3e3;
+  box-shadow:
+    /* The top layer shadow */
+    0 -1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 -10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 -10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 -20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 -20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding: 30px;">TEXT</p>
+ 
+
+
+/** BOX mit Farbverlauf **/
+<div style="background-image:linear-gradient( #FF217B 0%, #C127B3 70%); width:95%; padding: 15px; border-radius: 8px; box-shadow: 5px 5px #888;">
+
+
+
+/** Namen des Users einblenden **/
+<h3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript">// <![CDATA[
+type="text/javascript">
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+vorname = $('div.me-username').text().split(/\s+/)[0];
+  document.write("Hallo " + vorname + ", ");
+// ]]></script>
+herzlich willkommen zur H5P-Fortbildung an der ALP</h3>
+
+
+
+/** BOX Icon + Lektion **/
+<div style="background-color: #ff91c3; width: 99%; padding: 5px; margin: 45px 10px 10px 0px; border-radius: 8px; box-shadow: 5px 5px #888;"><span style="font-size: xx-large;"><span style="color: #999999;"><strong><span style="font-family: 'Chelsea Market';"><strong><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojRkY0RjE5OyIgZD0iTTQzMiw4SDgwQzY2Ljc2Niw4LDU2LDE4Ljc2Niw1NiwzMnY0NTZjMCwxMy4yMzQsMTAuNzY2LDI0LDI0LDI0aDM1MmMxMy4yMzQsMCwyNC0xMC43NjYsMjQtMjRWMzINCgkJCUM0NTYsMTguNzY2LDQ0NS4yMzQsOCw0MzIsOHoiLz4NCgk8L2c+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiNFMzAwMUU7IiBkPSJNOTUuNzgxLDhIODBDNjYuNzY2LDgsNTYsMTguNzY2LDU2LDMydjQ1NmMwLDEzLjIzNCwxMC43NjYsMjQsMjQsMjRoMTUuNzgxVjh6Ii8+DQoJPC9nPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojNUQ2NDdGOyIgZD0iTTQwMCwwaC04MGMtNC40MTgsMC04LDMuNTgyLTgsOHYxMTkuOTk2YzAsMi44ODMsMS41NDcsNS41NDMsNC4wNTUsNi45NjENCgkJCWMyLjUwOCwxLjQyMiw1LjU4NiwxLjM5MSw4LjA2My0wLjEwMkwzNjAsMTEzLjMyNWwzNS44ODMsMjEuNTMxYzEuMjY2LDAuNzYyLDIuNjk1LDEuMTQxLDQuMTE3LDEuMTQxDQoJCQljMS4zNTksMCwyLjcxOS0wLjM0NCwzLjk0NS0xLjAzOWMyLjUwOC0xLjQxOCw0LjA1NS00LjA3OCw0LjA1NS02Ljk2MVY4QzQwOCwzLjU4Miw0MDQuNDE4LDAsNDAwLDB6Ii8+DQoJPC9nPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIHN0eWxlPSJmaWxsOiNDMTAwMTk7IiBkPSJNOTYsNDgwYy00LjQyMiwwLTgtMy41ODItOC04VjQ4YzAtNC40MTgsMy41NzgtOCw4LThzOCwzLjU4Miw4LDh2NDI0DQoJCQkJQzEwNCw0NzYuNDE4LDEwMC40MjIsNDgwLDk2LDQ4MHoiLz4NCgkJPC9nPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0ZGQ0QwMDsiIGQ9Ik0zNTUuNzgxLDM0NGgtMC41NzJjLTAuMDcxLTAuMjcyLTAuMDg0LTAuNTQ1LTAuMTctMC44MTZMMzA5Ljc2LDE5OS44MDENCgkJCWM1LjY3OS0wLjk0OCwxMC4wMjEtNS44NSwxMC4wMjEtMTEuODAxYzAtNi42MjktNS4zNzUtMTItMTItMTJoLTY0Yy02LjYyNSwwLTEyLDUuMzcxLTEyLDEyYzAsNS45NTEsNC4zNDMsMTAuODUzLDEwLjAyMSwxMS44MDENCgkJCWwtNDUuMjc5LDE0My4zODNjLTAuMDg2LDAuMjcxLTAuMSwwLjU0NC0wLjE3LDAuODE2aC0wLjU3MmMtNi42MjUsMC0xMiw1LjM3MS0xMiwxMnM1LjM3NSwxMiwxMiwxMmgzMmM2LjYyNSwwLDEyLTUuMzcxLDEyLTEyDQoJCQljMC01Ljk1MS00LjM0Mi0xMC44NTMtMTAuMDIxLTExLjgwMUwyMzguNjY1LDMxNmg3NC4yMzFsOC45MDUsMjguMTk5Yy01LjY3OCwwLjk0OC0xMC4wMjEsNS44NS0xMC4wMjEsMTEuODAxDQoJCQljMCw2LjYyOSw1LjM3NSwxMiwxMiwxMmgzMmM2LjYyNSwwLDEyLTUuMzcxLDEyLTEyUzM2Mi40MDYsMzQ0LDM1NS43ODEsMzQ0eiBNMjQ4Ljc3LDI4NGwyNi4yNjktODMuMTg0DQoJCQljMC4wODYtMC4yNzEsMC4xLTAuNTQ0LDAuMTctMC44MTZoMS4xNDRjMC4wNzEsMC4yNzIsMC4wODQsMC41NDUsMC4xNywwLjgxNkwzMDIuNzkyLDI4NEgyNDguNzd6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="" height="57" width="65" /><span style="color: #800080;">Words and Pictures:</span></strong> </span></strong></span><span style="font-family: 'Chelsea Market'; color: #333333;">New York, New York</span></span></div>
+
+
+
+
+/** URHEBERRECHTSHINWEIS **/
+<div style="background-color: #e7e7e7; width: 60%; padding: 9px; margin-right: 8px; margin-bottom: 8px; border-radius: 8px; box-shadow: 5px 5px #888888; line-height: 0.7; text-align: left; float: right;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <strong><span style="font-family: 'Chelsea Market'; font-size: x-large;">Bildnachweis<br /></span><br /><img alt="Creative Commons Lizenzvertrag" style="border-width: 0;" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" align="left" /><span style="font-size: xx-small;">This image was originally posted to <a href="https://en.wikipedia.org/wiki/Flickr" class="extiw" title="en:Flickr"><span style="color: #000000;">Flickr</span></a> by José Goulão at <a rel="nofollow" class="external free" href="http://flickr.com/photos/67923089@N00/2347720254"><span style="color: #000000;">http://flickr.com/photos/67923089@N00/2347720254</span></a>. It was reviewed on <span style="white-space: nowrap;"><time class="dtstart" datetime="2008-08-03">3 August 2008</time></span> by the <a href="https://commons.wikimedia.org/wiki/User:FlickreviewR" title="User:FlickreviewR"><span style="color: #000000;">FlickreviewR</span></a> robot and was confirmed to be licensed under the terms of the cc-by-sa-2.0.</span><br /><span style="font-size: xx-small;">Das Werk 669px-Alicia_Keys_4 wurde modifiziert von Andreas Grefenberg.</span><strong><span style="font-family: 'Chelsea Market';"><br /></span></strong></strong></div>
+<br /><br /><br /><br />
+<div style="background-color: #e7e7e7; width: 60%; padding: 9px; margin-right: 8px; margin-bottom: 8px; border-radius: 8px; box-shadow: 5px 5px #888888; line-height: 0.7; text-align: left; float: right;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /><strong><span style="font-family: 'Chelsea Market'; font-size: x-large;">Allgemeiner Urheberrechtshinweis<br /></span><br /><img class="thinglinkFiltered" alt="Creative Commons Lizenzvertrag" style="border-width: 0; border: 0; float: left; padding: 4px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /><span style="font-size: x-small;">Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.</span><br /><span style="font-size: x-small;"><br />Entwickelt von Andreas Grefenberg.</span><br /><span style="font-size: x-small;">Alle Grafiken sind soweit nicht anders angegeben von <a target="_blank" href="http://www.freepik.com">freepik.com</a> oder <a target="_blank" href="http://www.vecteezy.com">vecteezy.com</a> bezogen.<br /><br /><br /><img style="float: left; padding: 4px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAAAA3NCSVQICAjb4U/gAAAAYFBMVEUzZpmDg4PN2eZmZmaZs8xwcHDm7POZmZlNZn9zjaamvNNAcJ/Z4+yAoL/A0N+zs7ONqcb///+8vLxZg6xmjLOpqans7OzMzMyMjIzZ2dl5eXnj4+P29vZzlrmzxtlNeaaVhU/fAAAACXBIWXMAAAsSAAALEgHS3X78AAAAH3RFWHRTb2Z0d2FyZQBNYWNyb21lZGlhIEZpcmV3b3JrcyA4tWjSeAAAABh0RVh0Q3JlYXRpb24gVGltZQAyNC8wMS8yMDA2MvopKwAAAmpJREFUSIntlm2zmjAQhYFNSGvAsEHJq/r//+XdbMDr7Vz80OpMp9PMEBeFh/XknGjzs9kfP+D3R/Mf/G+B9dQdT3ewtMHJ1oXgogo0pHMAKpgy0YhAnxmqPdAnrrwV2u/B83C4ZhxXsAxtTCEGE8MC6MGBQQul4slCG6TPBjBHMCHRAeH7judM3Z4wr+Bz6Q8JDD5XnMmo7mAApwAsPTMzlI/vwd2xzDis4PKdiRCcJwKmrOhWm2MFp8Uz3SOgyvYpeMaJwd0GdoUQQzB+bZFuTemzY2offFFJYXoGnpDXDQ+bFFmCcrXxQmpbujXmBymIZM+sNz4DH7HMJxTb4qXFOCmTiwARnQnKLZFU9+XUSIA2B2tLTZcGcsbSfgWPx+6gGy16FEJcRu67+tjTldH7wvA0ZC2BT9mPPpaa3pGxXBgfwbq7ig57PQrsxXXQAm8vCYgeRlZhWldtFeTPwdehGuJIRxG3GbqXgHWllW7rqjV43cA2kJ1aSjV4R2YuifVbqCnTinO9B75UizXU8YgX7l1sYPI+cEyUk/5cChPXUKsEtq0x3wGLCr6RxrU8Mf4rOMe1uIf6zHZjM++CR3YcWeHKdlif9AiurxCWxW6hlg7zGvNdKVjSjtLWsR0OPP8Clp8db6GOKT/tWPMuOQ2a7NDzI7CZH8BKBiOzqQVItYZaqbpJUMx3wCQCDgMFj9ePbZynFazQmoUSLRU6Z2VKhrbzGmqTLW3WHPM9cHObxK1amdWeR32XgkYbS3hLdGM5jVuoW3rlmO9J8bC3Zf1w9sLfvF40bwFfev0W8NzPzVvA41fu3/mH5QMGGkHpGmUtHQAAAABJRU5ErkJggg==" />Die zugrundeliegende Schrift "<a target="_blank" href="https://www.google.com/fonts/specimen/Chelsea+Market">Chelsea Market</a>" ist eine GOOGLE Fonts Schriftart und unterliegt einer SIL Open Font Licence.<br /><br /><br />Dieser Hinweis darf bei Weitergabe oder Nutzung dieses Kurses durch Dritte nicht entfernt werden.</span></strong></div>
+<br /><br />
+<br /><br />
+
+
+
+/** LICENSE FOR BADGES **/
+<p>Badges from <a href="http://moodlebadges.com">MoodleBadges.com</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/"><img style="vertical-align:middle;" src="http://moodlebadges.com/cc" alt="Creative Commons" /></a></p>
+
+
+
+
+/** URHEBERRECHTSHINWEIS FREMDMATERIAL **/
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
+
+
+
+/** TOOLTIP **/
+window.alert("random = zufällig ausgewählt\n\n")
+
+
+
+/** TOGGLE MENUE **/
+<div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    // <![CDATA[
+    $(document).ready(function() {
+      $('#content_past_progressive').hide();
+      $('#hideshow_past_progressive').click(function() {
+        $('#content_past_progressive').toggle('hide');
+      });
+    });
+     // ]]>
+  </script>
+  <input id="hideshow_past_progressive" style="background-image: url('https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/more_practice_green.jpg'); margin-left: 9%; display: block; width: 225px; height: 60px; background-size: 100%; background-repeat: no-repeat; border: 0px solid white;"
+  type="text" data-kpxc-id="hideshow_past_progressive">
+</div>
+
+<div id="content_past_progressive" style="margin-top: 10px; margin-left: 9%; width: 90%; height: auto; display: block; background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #fafafa 10px,
+    #fafafa 20px
+  ); padding: 10px; border-radius: 20px; border: 3px solid #fafafa;"><strong>Past Progressive +</strong> 
+  <br>
+  <a href="https://www.englisch-hilfen.de/uebungen/zeiten/past_progressive_aussagen.htm" target="_blank">
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/1.png?time=1567883300919" alt="01" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="125" height="115">
+  </a>
+  <a href="https://www.englisch-hilfen.de/uebungen/zeiten/past_progressive_aussagen2.htm" target="_blank">
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/2.png?time=1567883322389" alt="02" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="124" height="115">
+    <br>
+  </a><strong>Past Progressive -</strong>
+  <a href="https://www.englisch-hilfen.de/uebungen/zeiten/past_progressive_verneinung.htm" target="_blank">
+    <br>
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/3.png" alt="03" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="100" height="91">
+  </a>
+  <a href="https://www.englisch-hilfen.de/uebungen/zeiten/past_progressive_verneinung2.htm" target="_blank">
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/4.png" alt="04" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="100" height="91">
+    <br>
+  </a><strong>Past Progressive in Questions</strong>
+  <a href="https://www.englisch-hilfen.de/uebungen/fragen/past_progressive.htm" target="_blank">
+    <br>
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/5.png" alt="05" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="125" height="115">
+  </a>
+  <a href="https://www.englisch-hilfen.de/uebungen/fragen/past_progressive2.htm" target="_blank">
+    <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/6.png" alt="06" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="124" height="115">
+  </a>
+</div>
