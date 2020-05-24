@@ -2,15 +2,24 @@
 /** Snippets im <>-Feld des Editors an der Stelle einfügen, wo sie schlussendlich erscheinen sollen. **/
 /** Kein gesonderter CSS-Block in der Lernplattform notwendig. **/
 /** ################################ **/
-
-
 /** SCHRIFTART CHELSEA MARKET **/
 <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <strong><span style="font-family: 'Chelsea Market'; font-size: large;">
 
 
 
+/** css link **/
+<link type="text/css" rel="stylesheet" href="https://github.com/agrefenberg/mebis/blob/master/stylesheet_ag.css"/>
+
+
+
 /** BOX **/
 <div style="background-color: #f27391; width:95%; padding: 5px; border-radius: 8px; box-shadow: 5px 5px #888;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <span style="font-size: xx-large; color: #ffffff;"><strong><span style="font-family: 'Chelsea Market';">farbige Box mit abgerundeten Ecken</span></strong></span></div>
+
+
+
+
+/** FONTAWESOME **/
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
 
@@ -42,17 +51,12 @@
 
 
 
-/** Namen des Users einblenden **/
-<h3>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript">// <![CDATA[
-type="text/javascript">
-// ]]></script>
-<script type="text/javascript">// <![CDATA[
-vorname = $('div.me-username').text().split(/\s+/)[0];
-  document.write("Hallo " + vorname + ", ");
-// ]]></script>
-herzlich willkommen zur H5P-Fortbildung an der ALP</h3>
+/** Einrückung mit vertikalem Strich **/
+<div style="padding: 20px; margin-left: 30px; border-left-style: solid; border-left-color: #00a8d5; border-width: 8px;" class="editor-indent">
 
+
+/** Namen des Users einblenden **/
+Hallo {firstname}, ....
 
 
 /** BOX Icon + Lektion **/
@@ -85,8 +89,8 @@ herzlich willkommen zur H5P-Fortbildung an der ALP</h3>
 window.alert("random = zufällig ausgewählt\n\n")
 
 
-  
-/** ACCORDEON ... BOOTSTRAP CODE **/
+
+/** ACCORDEON ... BOOTSTRAP **/
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -138,9 +142,8 @@ window.alert("random = zufällig ausgewählt\n\n")
     </div>
   </div>
 </div>
-  
-  
-  
+
+
 
 /** TOGGLE MENUE **/
 <div>
