@@ -193,3 +193,46 @@ window.alert("random = zufällig ausgewählt\n\n")
     <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/6.png" alt="06" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="124" height="115">
   </a>
 </div>
+
+
+/** BOOTSTRAP CAROUSEL **/
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3500" data-pause="hover" data-wrap="true">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox" style="border-radius:20px">
+    <div class="carousel-item active">
+      <div class="img">
+        <a href="https://alp.dillingen.de/themenseiten/stabsstelle/wochenplaene/" target="_blank">
+          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/826146157/grafik.png" alt="First slide">
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="img">
+        <a href="https://eduswabia.wordpress.com/anmeldung/" target="_blank">
+          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/35571456/cropped-header_1920x500_eduswabia-2020_vers2-2%20%281%29.jpg" alt="Second slide">
+        </a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="img">
+        <a href="https://eduswabia.wordpress.com/anmeldung/" target="_blank">
+          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/35571456/cropped-header_1920x500_eduswabia-2020_vers2-2%20%281%29.jpg" alt="Third slide">
+        </a>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+<br>
