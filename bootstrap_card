@@ -1,0 +1,27 @@
+<!-- Card -->
+<div class="card" width="300px" style="border-radius:15px; border-style:solid; border-width:1px; width:300px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:15px;">
+
+  <!-- Card image -->
+  <a href="https://lernplattform.mebis.bayern.de/mod/resource/view.php?id=19885952" target="_blank">
+    <img class="card-img-top" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/981338829/keep_calm_and_use_mebis.jpg" style="border-top-left-radius:15px; border-top-right-radius:15px;" alt="Keep calm and use mebis">
+  </a>
+
+  <!-- Card content -->
+  <div class="card-body ">
+
+    <!-- Title -->
+    <h4 class="card-title "><a>Poster oder Vorlage für Guerilla-Aufkleber etc.<br></a></h4>
+    <!-- Text -->
+    <p class="card-text ">
+      <img alt="Creative Commons Lizenzvertrag" src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+      <br>
+    </p>
+    <!-- Button -->
+    <a href="https://lernplattform.mebis.bayern.de/mod/resource/view.php?id=19885952" class="btn btn-primary ">Download</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+<br>
+<br>
