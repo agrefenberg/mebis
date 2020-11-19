@@ -1,0 +1,2 @@
+/** BOX mit Farbverlauf **/
+<div style="background-image:linear-gradient( #FF217B 0%, #C127B3 70%); width:95%; padding: 15px; border-radius: 8px; box-shadow: 5px 5px #888;">
