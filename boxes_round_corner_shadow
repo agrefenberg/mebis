@@ -1,0 +1,5 @@
+/** BOX **/
+<div style="background-color: #f27391; width:95%; padding: 5px; border-radius: 8px; box-shadow: 5px 5px #888;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <span style="font-size: xx-large; color: #ffffff;"><strong><span style="font-family: 'Chelsea Market';">farbige Box mit abgerundeten Ecken</span></strong></span></div>
+
+/** BOX gestrichelte Linie, abgerundete Ecken **/
+<div style="border: dashed 3px #4b4b4b; border-radius: 15px; -moz-border-radius: 15px;"></div>
