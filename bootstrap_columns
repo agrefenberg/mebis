@@ -1,0 +1,17 @@
+/** BOOTSTRAP COLUMNS **/
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      Hier kommt der Inhalt der linken Spalte.
+    </div>
+    <div class="col-lg-3">
+      Hier kommt der Inhalt der mittleren Spalte.
+    </div>
+    <div class="col-lg-3">
+      Hier kommt der Inhalt der rechten Spalte.
+    </div>
+    <div class="col-lg-3">
+      Hier kommt der Inhalt der rechten Spalte.
+    </div>
+  </div>
+</div>
