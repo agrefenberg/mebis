@@ -6,63 +6,8 @@
 <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <strong><span style="font-family: 'Chelsea Market'; font-size: large;">
 
 
-
 /** css link **/
 <link type="text/css" rel="stylesheet" href="https://github.com/agrefenberg/mebis/blob/master/stylesheet_ag.css"/>
-
-
-
-/** BOX **/
-<div style="background-color: #f27391; width:95%; padding: 5px; border-radius: 8px; box-shadow: 5px 5px #888;"><link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css" /> <span style="font-size: xx-large; color: #ffffff;"><strong><span style="font-family: 'Chelsea Market';">farbige Box mit abgerundeten Ecken</span></strong></span></div>
-
-
-
-
-/** FONTAWESOME **/
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-
-
-/** BOX gestrichelte Linie, abgerundete Ecken **/
-<div style="border: dashed 3px #4b4b4b; border-radius: 15px; -moz-border-radius: 15px;"></div>
-
-
-
-/** stacked TEXT BOX **/
-<p style="background: #e8e3e3;
-  box-shadow:
-    /* The top layer shadow */
-    0 -1px 1px rgba(0,0,0,0.15),
-    /* The second layer */
-    0 -10px 0 -5px #eee,
-    /* The second layer shadow */
-    0 -10px 1px -4px rgba(0,0,0,0.15),
-     /* The third layer */
-    0 -20px 0 -10px #eee,
-    /* The third layer shadow */
-    0 -20px 1px -9px rgba(0,0,0,0.15);
-    /* Padding for demo purposes */
-    padding: 30px;">TEXT</p>
- 
-
-
-/** BOX mit Farbverlauf **/
-<div style="background-image:linear-gradient( #FF217B 0%, #C127B3 70%); width:95%; padding: 15px; border-radius: 8px; box-shadow: 5px 5px #888;">
-
-
-
-/** Einrückung mit vertikalem Strich **/
-<div style="padding: 20px; margin-left: 30px; border-left-style: solid; border-left-color: #00a8d5; border-width: 8px;" class="editor-indent">
-
-
-/** Namen des Users einblenden **/
-Hallo {firstname}, ....
-
-
-/** BOX Icon + Lektion **/
-<div style="background-color: #ff91c3; width: 99%; padding: 5px; margin: 45px 10px 10px 0px; border-radius: 8px; box-shadow: 5px 5px #888;"><span style="font-size: xx-large;"><span style="color: #999999;"><strong><span style="font-family: 'Chelsea Market';"><strong><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojRkY0RjE5OyIgZD0iTTQzMiw4SDgwQzY2Ljc2Niw4LDU2LDE4Ljc2Niw1NiwzMnY0NTZjMCwxMy4yMzQsMTAuNzY2LDI0LDI0LDI0aDM1MmMxMy4yMzQsMCwyNC0xMC43NjYsMjQtMjRWMzINCgkJCUM0NTYsMTguNzY2LDQ0NS4yMzQsOCw0MzIsOHoiLz4NCgk8L2c+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiNFMzAwMUU7IiBkPSJNOTUuNzgxLDhIODBDNjYuNzY2LDgsNTYsMTguNzY2LDU2LDMydjQ1NmMwLDEzLjIzNCwxMC43NjYsMjQsMjQsMjRoMTUuNzgxVjh6Ii8+DQoJPC9nPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojNUQ2NDdGOyIgZD0iTTQwMCwwaC04MGMtNC40MTgsMC04LDMuNTgyLTgsOHYxMTkuOTk2YzAsMi44ODMsMS41NDcsNS41NDMsNC4wNTUsNi45NjENCgkJCWMyLjUwOCwxLjQyMiw1LjU4NiwxLjM5MSw4LjA2My0wLjEwMkwzNjAsMTEzLjMyNWwzNS44ODMsMjEuNTMxYzEuMjY2LDAuNzYyLDIuNjk1LDEuMTQxLDQuMTE3LDEuMTQxDQoJCQljMS4zNTksMCwyLjcxOS0wLjM0NCwzLjk0NS0xLjAzOWMyLjUwOC0xLjQxOCw0LjA1NS00LjA3OCw0LjA1NS02Ljk2MVY4QzQwOCwzLjU4Miw0MDQuNDE4LDAsNDAwLDB6Ii8+DQoJPC9nPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIHN0eWxlPSJmaWxsOiNDMTAwMTk7IiBkPSJNOTYsNDgwYy00LjQyMiwwLTgtMy41ODItOC04VjQ4YzAtNC40MTgsMy41NzgtOCw4LThzOCwzLjU4Miw4LDh2NDI0DQoJCQkJQzEwNCw0NzYuNDE4LDEwMC40MjIsNDgwLDk2LDQ4MHoiLz4NCgkJPC9nPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6I0ZGQ0QwMDsiIGQ9Ik0zNTUuNzgxLDM0NGgtMC41NzJjLTAuMDcxLTAuMjcyLTAuMDg0LTAuNTQ1LTAuMTctMC44MTZMMzA5Ljc2LDE5OS44MDENCgkJCWM1LjY3OS0wLjk0OCwxMC4wMjEtNS44NSwxMC4wMjEtMTEuODAxYzAtNi42MjktNS4zNzUtMTItMTItMTJoLTY0Yy02LjYyNSwwLTEyLDUuMzcxLTEyLDEyYzAsNS45NTEsNC4zNDMsMTAuODUzLDEwLjAyMSwxMS44MDENCgkJCWwtNDUuMjc5LDE0My4zODNjLTAuMDg2LDAuMjcxLTAuMSwwLjU0NC0wLjE3LDAuODE2aC0wLjU3MmMtNi42MjUsMC0xMiw1LjM3MS0xMiwxMnM1LjM3NSwxMiwxMiwxMmgzMmM2LjYyNSwwLDEyLTUuMzcxLDEyLTEyDQoJCQljMC01Ljk1MS00LjM0Mi0xMC44NTMtMTAuMDIxLTExLjgwMUwyMzguNjY1LDMxNmg3NC4yMzFsOC45MDUsMjguMTk5Yy01LjY3OCwwLjk0OC0xMC4wMjEsNS44NS0xMC4wMjEsMTEuODAxDQoJCQljMCw2LjYyOSw1LjM3NSwxMiwxMiwxMmgzMmM2LjYyNSwwLDEyLTUuMzcxLDEyLTEyUzM2Mi40MDYsMzQ0LDM1NS43ODEsMzQ0eiBNMjQ4Ljc3LDI4NGwyNi4yNjktODMuMTg0DQoJCQljMC4wODYtMC4yNzEsMC4xLTAuNTQ0LDAuMTctMC44MTZoMS4xNDRjMC4wNzEsMC4yNzIsMC4wODQsMC41NDUsMC4xNywwLjgxNkwzMDIuNzkyLDI4NEgyNDguNzd6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="" height="57" width="65" /><span style="color: #800080;">Words and Pictures:</span></strong> </span></strong></span><span style="font-family: 'Chelsea Market'; color: #333333;">New York, New York</span></span></div>
-
-
 
 
 /** URHEBERRECHTSHINWEIS **/
@@ -73,21 +18,16 @@ Hallo {firstname}, ....
 <br /><br />
 
 
-
 /** LICENSE FOR BADGES **/
 <p>Badges from <a href="http://moodlebadges.com">MoodleBadges.com</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/"><img style="vertical-align:middle;" src="http://moodlebadges.com/cc" alt="Creative Commons" /></a></p>
-
-
 
 
 /** URHEBERRECHTSHINWEIS FREMDMATERIAL **/
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
 
 
-
 /** TOOLTIP **/
 window.alert("random = zufällig ausgewählt\n\n")
-
 
 
 /** ACCORDEON ... BOOTSTRAP **/
@@ -193,46 +133,3 @@ window.alert("random = zufällig ausgewählt\n\n")
     <img src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/657130500/6.png" alt="06" style="width: 10%; height: auto; max-width: 100px;" class="img-responsive atto_image_button_text-bottom" width="124" height="115">
   </a>
 </div>
-
-
-/** BOOTSTRAP CAROUSEL **/
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3500" data-pause="hover" data-wrap="true">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox" style="border-radius:20px">
-    <div class="carousel-item active">
-      <div class="img">
-        <a href="https://alp.dillingen.de/themenseiten/stabsstelle/wochenplaene/" target="_blank">
-          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/826146157/grafik.png" alt="First slide">
-        </a>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="img">
-        <a href="https://eduswabia.wordpress.com/anmeldung/" target="_blank">
-          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/35571456/cropped-header_1920x500_eduswabia-2020_vers2-2%20%281%29.jpg" alt="Second slide">
-        </a>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="img">
-        <a href="https://eduswabia.wordpress.com/anmeldung/" target="_blank">
-          <img class="d-block img-fluid" src="https://lernplattform.mebis.bayern.de/draftfile.php/29791/user/draft/35571456/cropped-header_1920x500_eduswabia-2020_vers2-2%20%281%29.jpg" alt="Third slide">
-        </a>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
-<br>
